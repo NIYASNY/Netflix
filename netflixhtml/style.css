@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background: #000;
+	color: #fff;
+}
+.header {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/2e884ce2-da1c-4501-ab9a-10c534d30975/6973a9ea-02b2-4de9-9006-d7d224c9b75d/IN-en-20230327-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10px 8%;
+	position: relative;
+}
+
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+
+}
+
+.logo{
+	width: 150px;
+	cursor: pointer;
+}
+nav button{
+	border: 0;
+	outline: 0;
+	background: #db0001;
+	color: #fff;
+	padding: 7px 20px;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-left: 10px;
+	cursor: pointer;
+
+}
+
+.language-btn{
+	display: inline-flex;
+	align-items: center;
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 7px 10px;
+}
+.language-btn img{
+	width: 10px;
+	margin-left: 10px;
+}
+
+
+.header-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	margin-top: 100px;
+}
+
+.header-content h1{
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: 600;
+	max-width: 650px;
+}
+
+.header-content h3{
+	font-weight: 400;
+	margin-bottom: 20px;
+
+}
+
+.email-signup{
+	background: #fff;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.email-signup input{
+	flex: 1;
+	border: 0;
+	outline: 0;
+	margin-left: 20px;
+}
+.email-signup button{
+	background: #db0001;
+	border: 0;
+	outline: 0;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 15px 30px;
+}
+.containerf{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+hr{
+	margin: 100px;
+}
+.contentf{
+	margin-top: 225px;
+	font-size: 25px;
+}
+.contentf p{
+	margin-top: 18px;
+}
+.containers{
+	display: flex;
+}
+.contents{
+	margin-top: 225px;
+	font-size: 25px;
+}
+.contents p{
+	margin-top: 18px;
+	font-size: 22px;
+}
+.containert{
+	display: flex;
+}
+.contentt{
+	margin-top: 225px;
+	font-size: 20px;
+}
+.contenttsp{
+	margin-top: 18px;
+}
+.containerfour{
+	display: flex;
+}
+.contentfour{
+	margin-top: 225px;
+	font-size: 20px;
+}
+.contentfour p{
+	margin-top: 18px;
+}
+.heading{
+	flex-basis: 100%;
+	font-size: 53px;
+	font-style: italic;
+	font-family:sans-serif;
+	font-weight: 900;
+}
+.ptag{
+	font-weight:600;
+	font-size: 25px;
+}
+.firstone{
+	margin-left: 160px;
+	margin-top: 120px;
+	color:  rgba(255, 255, 255, 0.7);
+}
+.questions{
+	margin-top: 40px;
+	margin-left: 150px;
+	list-style: none;
+}
+.titleh{
+	margin-top: 115px;
+	margin-left: 150px;
+	font-size: 25px;
+}
+.titleandp li{
+	text-align: start;
+}
+.titleandp button{
+	text-align: start;
+	font-size: 23px;
+	color: #fff;
+	margin-top: 12px;
+	/* box-shadow: 1px 0 5px ; */
+	padding: 25px ;
+	width: 85%;
+	background-color: #201b52;
+}
+.lastbutton{
+	margin-top: 22px;
+}
+.lastbutton button{
+	background-color: #db0001;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	width: 18%;
+}
+.fourp{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 40px;
+	list-style: none;
+}
+.fourp li{
+	margin-left: 125px;
+	margin-top: 15px;
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 12px;
+}
